@@ -1,0 +1,153 @@
+{
+  "nome": "Planta Teste com Porta e Janela",
+  "unidadeMedida": "m",
+  "comodos": [
+    {
+      "nomeComodo": "COZINHA",
+      "paredes": [
+        {
+          "identificacaoParede": "p1",
+          "altura": 3.0,
+          "largura": 0.2,
+          "comprimento": 2.7,
+          "quantidadeLP": 2,
+          "portas": [
+            {
+              "altura": 2.1,
+              "comprimento": 1.0,
+              "posicaoX": 0.5,
+              "posicaoY": 0
+            }
+          ],
+          "janelas": []
+        },
+        {
+          "identificacaoParede": "p2",
+          "altura": 3.0,
+          "largura": 0.2,
+          "comprimento": 1.7,
+          "quantidadeLP": 1,
+          "portas": [],
+          "janelas": []
+        },
+        {
+          "identificacaoParede": "p7",
+          "altura": 3.0,
+          "largura": 0.2,
+          "comprimento": 1.7,
+          "quantidadeLP": 1,
+          "portas": [],
+          "janelas": []
+        },
+        {
+          "identificacaoParede": "p8",
+          "altura": 3.0,
+          "largura": 0.2,
+          "comprimento": 1.3,
+          "quantidadeLP": 0,
+          "portas": [],
+          "janelas": []
+        },
+        {
+          "identificacaoParede": "p9",
+          "altura": 3.0,
+          "largura": 0.2,
+          "comprimento": 1.2,
+          "quantidadeLP": 0,
+          "portas": [],
+          "janelas": []
+        }
+      ]
+    },
+    {
+      "nomeComodo": "QUARTO",
+      "paredes": [
+        {
+          "identificacaoParede": "p3",
+          "altura": 2.3,
+          "largura": 0.2,
+          "comprimento": 2.4,
+          "quantidadeLP": 1,
+          "portas": [],
+          "janelas": []
+        },
+        {
+          "identificacaoParede": "p4",
+          "altura": 2.3,
+          "largura": 0.2,
+          "comprimento": 1.3,
+          "quantidadeLP": 1,
+          "portas": [],
+          "janelas": [
+            {
+              "altura": 1.0,
+              "comprimento": 1.0,
+              "posicaoSolo": 1.0,
+              "posicaoX": 0.15,
+              "posicaoY": 0.3
+            }
+          ]
+        },
+        {
+          "identificacaoParede": "p10",
+          "altura": 2.3,
+          "largura": 0.2,
+          "comprimento": 2.4,
+          "quantidadeLP": 0,
+          "portas": [],
+          "janelas": []
+        },
+        {
+          "identificacaoParede": "p8",
+          "altura": 2.3,
+          "largura": 0.2,
+          "comprimento": 1.3,
+          "quantidadeLP": 0,
+          "portas": [],
+          "janelas": []
+        }
+      ]
+    },
+    {
+      "nomeComodo": "BANHEIRO",
+      "paredes": [
+        {
+          "identificacaoParede": "p10",
+          "altura": 2.2,
+          "largura": 0.2,
+          "comprimento": 2.4,
+          "quantidadeLP": 0,
+          "portas": [],
+          "janelas": []
+        },
+        {
+          "identificacaoParede": "p5",
+          "altura": 2.2,
+          "largura": 0.2,
+          "comprimento": 1.2,
+          "quantidadeLP": 1,
+          "portas": [],
+          "janelas": []
+        },
+        {
+          "identificacaoParede": "p6",
+          "altura": 2.2,
+          "largura": 0.2,
+          "comprimento": 2.4,
+          "quantidadeLP": 1,
+          "portas": [],
+          "janelas": []
+        },
+        {
+          "identificacaoParede": "p9",
+          "altura": 2.2,
+          "largura": 0.2,
+          "comprimento": 1.2,
+          "quantidadeLP": 0,
+          "portas": [],
+          "janelas": []
+        }
+      ]
+    }
+  ]
+}

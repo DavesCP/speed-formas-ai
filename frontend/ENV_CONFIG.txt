@@ -1,0 +1,36 @@
+# ====================================
+# COPIE ESTE CONTEÚDO PARA UM ARQUIVO .env.local
+# ====================================
+
+# MODO DE DESENVOLVIMENTO (alterar para false quando usar API real)
+NEXT_PUBLIC_USE_MOCK=true
+
+# ====================================
+# CONFIGURAÇÕES DA API DIFY
+# ====================================
+# Substitua pelos valores reais da sua conta Dify
+NEXT_PUBLIC_DIFY_API_URL=https://api.dify.ai/v1
+NEXT_PUBLIC_DIFY_API_KEY=app-your-dify-key-here
+
+# Endpoints da IA (ajuste conforme sua configuração no Dify)
+NEXT_PUBLIC_DIFY_PROCESS_ENDPOINT=/workflows/run
+NEXT_PUBLIC_DIFY_STATUS_ENDPOINT=/workflows/status
+
+# ====================================
+# OUTRAS CONFIGURAÇÕES
+# ====================================
+# URL da API backend (se você tiver um backend próprio)
+NEXT_PUBLIC_API_URL=http://localhost:3001/api
+
+# Configurações de upload
+NEXT_PUBLIC_MAX_FILE_SIZE=50
+NEXT_PUBLIC_ALLOWED_EXTENSIONS=.pdf
+
+# ====================================
+# CONFIGURAÇÕES DE DESENVOLVIMENTO
+# ====================================
+# Port para o servidor de desenvolvimento
+PORT=3000
+
+# URL base da aplicação
+NEXT_PUBLIC_APP_URL=http://localhost:3000
